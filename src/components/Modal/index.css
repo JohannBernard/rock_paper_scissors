@@ -1,0 +1,45 @@
+.modal_window {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.modal_window_visible {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal_container{
+    width: 400px;
+    max-width: 75vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+    background: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.modal_label {
+    font-size: 32px;
+    margin-bottom: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+    .modal_label {
+        font-size: 28px;
+    }
+}

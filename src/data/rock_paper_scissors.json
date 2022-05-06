@@ -1,0 +1,20 @@
+[
+    {
+        "name": "rock",
+        "label": "Pierre",
+        "icon": "👊",
+        "strongerThan": ["scissors"]
+    },
+    {
+        "name": "paper",
+        "label": "Feuille",
+        "icon": "✋",
+        "strongerThan": ["rock"]
+    },
+    {
+        "name": "scissors",
+        "label": "Ciseaux",
+        "icon": "✌",
+        "strongerThan": ["paper"]
+    }
+]

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches user snapshot 1`] = `
+<div
+  className="my_coach_user"
+  data-testid="testUser-1"
+>
+  <p
+    className="my_coach_user_name"
+    data-testid="testUserName-1"
+  >
+    Joueur
+  </p>
+  <p
+    className="my_coach_user_score"
+    data-testid="testUserScore-1"
+  >
+    2
+  </p>
+</div>
+`;

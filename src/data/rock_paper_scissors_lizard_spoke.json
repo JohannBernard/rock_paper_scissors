@@ -1,0 +1,32 @@
+[
+    {
+        "name": "rock",
+        "label": "Pierre",
+        "icon": "👊",
+        "strongerThan": ["scissors", "lizard"]
+    },
+    {
+        "name": "paper",
+        "label": "Feuille",
+        "icon": "✋",
+        "strongerThan": ["rock", "spoke"]
+    },
+    {
+        "name": "scissors",
+        "label": "Ciseaux",
+        "icon": "✌",
+        "strongerThan": ["paper", "lizard"]
+    },
+    {
+        "name": "lizard",
+        "label": "Lézard",
+        "icon": "🦎",
+        "strongerThan": ["paper", "spoke"]
+    },
+    {
+        "name": "spoke",
+        "label": "Spock",
+        "icon": "🖖",
+        "strongerThan": ["rock", "scissors"]
+    }
+]

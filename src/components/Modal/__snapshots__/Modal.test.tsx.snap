@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches item snapshot 1`] = `
+Array [
+  <div
+    className="modal_window modal_window_visible"
+    data-testid="testModal-1"
+    id="open-modal"
+  >
+    <div
+      className="modal_container"
+    >
+      <div
+        className="modal_label"
+        data-testid="testModalLabel-1"
+      >
+        Test Modal 1
+      </div>
+      <button
+        className="my_coach_button"
+        data-testid="testButton"
+      >
+        Recommencer
+      </button>
+    </div>
+  </div>,
+  <div
+    className="modal_window"
+    data-testid="testModal-2"
+    id="open-modal"
+  >
+    <div
+      className="modal_container"
+    >
+      <div
+        className="modal_label"
+        data-testid="testModalLabel-2"
+      >
+        Test Modal 2
+      </div>
+      <button
+        className="my_coach_button"
+        data-testid="testButton"
+      >
+        Recommencer
+      </button>
+    </div>
+  </div>,
+]
+`;

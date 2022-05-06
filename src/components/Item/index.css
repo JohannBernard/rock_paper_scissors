@@ -1,0 +1,50 @@
+.my_coach_item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30vw;
+  border: 4px black solid;
+  margin: 32px 5%;
+  border-radius: 32px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+  padding: 16px 32px 32px;
+  transition: all 0.2s;
+}
+
+.my_coach_item_win{
+  background-color: rgba(75, 181, 67, 0.2);
+}
+.my_coach_item_lost{
+  background-color: rgba(220, 53, 69, 0.2);
+}
+
+.my_coach_item_icon {
+  font-size: 96px;
+  margin: 0;
+}
+
+.my_coach_item_label{
+  line-height: 48px;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  .my_coach_item{
+    margin: 16px;
+    border-radius: 16px;
+    padding: 16px;
+  }
+
+  .my_coach_item_icon {
+    font-size: 48px;
+  }
+  
+  .my_coach_item_label{
+    line-height: 28px;
+    font-size: 28px;
+  }
+}

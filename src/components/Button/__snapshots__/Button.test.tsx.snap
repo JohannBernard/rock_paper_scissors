@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches button snapshot 1`] = `
+<button
+  className="my_coach_button"
+  data-testid="testButton"
+>
+  Test
+</button>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches item snapshot 1`] = `
+<div>
+  <div
+    className="my_coach_item"
+    data-testid="testItem-1"
+  >
+    <p
+      className="my_coach_item_icon"
+      data-testid="testItemIcon-1"
+    >
+      👊
+    </p>
+    <p
+      className="my_coach_item_label"
+      data-testid="testItemLabel-1"
+    >
+      Pierre
+    </p>
+  </div>
+  <div
+    className="my_coach_item"
+    data-testid="testItem-2"
+  >
+    <p
+      className="my_coach_item_icon"
+      data-testid="testItemIcon-2"
+    >
+      ✋
+    </p>
+    <p
+      className="my_coach_item_label"
+      data-testid="testItemLabel-2"
+    >
+      Feuille
+    </p>
+  </div>
+  <div
+    className="my_coach_item"
+    data-testid="testItem-3"
+  >
+    <p
+      className="my_coach_item_icon"
+      data-testid="testItemIcon-3"
+    >
+      ✌
+    </p>
+    <p
+      className="my_coach_item_label"
+      data-testid="testItemLabel-3"
+    >
+      Ciseaux
+    </p>
+  </div>
+</div>
+`;
